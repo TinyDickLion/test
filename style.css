@@ -262,7 +262,7 @@ a.active {
 
 nav {
   overflow: hidden;
-  background-color: #330b7c;
+  background-color: #bf9426;
   padding: 10px;
 }
 
@@ -387,7 +387,7 @@ nav .selected {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #010101;
+  background-color: #ddd127;
 }
 
 .header {
@@ -434,3 +434,90 @@ body {
   }
 }
 
+.center-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 15px; /* Adds some padding on smaller screens */
+  box-sizing: border-box; /* Ensures padding is included in element's width and height */
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%; /* Ensure it takes full width on mobile */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.card h1 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.card-logo {
+  max-width: 100px; /* Adjust logo size for mobile */
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.card a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #333333;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 600px) {
+  .center-card {
+      height: auto; /* Adjust height for mobile */
+      padding: 20px; /* Add padding around the card */
+      margin-top: 20px; /* Ensure there's some space at the top */
+      margin-bottom: 20px; /* Ensure there's some space at the bottom */
+      flex-direction: column; /* Stack content vertically */
+  }
+
+  .card {
+      max-width: 100%; /* Ensure card takes full width */
+      padding: 15px; /* Reduce padding on mobile */
+  }
+
+  .card h1 {
+      font-size: 20px; /* Adjust font size for mobile */
+  }
+
+  .card-logo {
+      max-width: 80px; /* Adjust logo size for mobile */
+  }
+
+  .card p {
+      font-size: 14px; /* Adjust font size for mobile */
+      margin-bottom: 10px;
+  }
+
+  .card h3 {
+      font-size: 18px; /* Adjust font size for mobile */
+      margin-top: 20px;
+  }
+}
