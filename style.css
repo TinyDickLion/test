@@ -262,7 +262,7 @@ a.active {
 
 nav {
   overflow: hidden;
-  background-color: #bf9426;
+  background-color: #ff9900;
   padding: 10px;
 }
 
@@ -445,7 +445,7 @@ body {
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #2490e3;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -457,7 +457,7 @@ body {
 
 .card h1 {
   font-size: 24px;
-  color: #333333;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -468,13 +468,15 @@ body {
 
 .card p {
   font-size: 16px;
-  color: #555555;
+  color: #ffffff;
   margin-bottom: 15px;
   line-height: 1.6;
 }
 
 .card a {
-  color: #007BFF;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #303234;
   text-decoration: none;
 }
 
@@ -485,7 +487,7 @@ body {
 .card h3 {
   font-size: 20px;
   margin-top: 30px;
-  color: #333333;
+  color: #ffffff;
 }
 
 /* Responsive Design for Smaller Screens */
